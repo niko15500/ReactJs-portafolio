@@ -7,6 +7,7 @@ const Saludo = (props) => {
             <div>Tienes {props.age}</div>
             <div>Alerta {props.action}</div>
             
+            
         </>
     )
 }
