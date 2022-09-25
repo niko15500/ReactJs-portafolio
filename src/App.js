@@ -1,23 +1,24 @@
 import "./App.css";
-import Carousel from "./components/Carousel";
 import Header from "./components/Header";
-import Navbar from "./components/Header";
+import ItemListContainer from "./components/ItemListContainer";
+import Navbar from "./components/Navbar";
 import Saludo from "./components/Saludo";
 
-const miFuncion = () => {
-  
-  
-}
+const miFuncion = () => {};
 
 function App() {
   return (
     <>
-      <Header/>
-      <Carousel/>
-      <Saludo name="Juan"age="15" action={miFuncion}/>
-      <br></br>
-      <Saludo name="Ana"age="35"/>
-    </> 
+      <Header>
+        <Navbar></Navbar>
+        <ItemListContainer greeting="SALUDO"></ItemListContainer>
+        <Saludo name="Juan" age="15" action={miFuncion} />
+        <Saludo name="Ana" age="35" /> 
+      </Header>
+      {/* <h1 className="titulo">Hola</h1>
+        <p className="parrafo">bienvenido a formacion bursatil donde vas a encontrar las mejores inversiones segun tu perfil</p>
+        <br></br> */}
+    </>
   );
 }
 
