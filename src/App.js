@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
+const styleP = {
+  border: "solid 2px blue",
+  padding: "20px"
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 style={{color:"red", textDecoration:"underline"}}>Hola Mundo con React!</h1>
+    <p style={styleP}>asd</p>
+    <li>1</li>
+    <li>2</li>
+    
+    </>
   );
 }
 
