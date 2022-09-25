@@ -1,18 +1,23 @@
-import './App.css';
+import "./App.css";
+import Carousel from "./components/Carousel";
+import Header from "./components/Header";
+import Navbar from "./components/Header";
+import Saludo from "./components/Saludo";
 
-const styleP = {
-  border: "solid 2px blue",
-  padding: "20px"
+const miFuncion = () => {
+  
+  
 }
+
 function App() {
   return (
     <>
-    <h1 style={{color:"red", textDecoration:"underline"}}>Hola Mundo con React!</h1>
-    <p style={styleP}>asd</p>
-    <li>1</li>
-    <li>2</li>
-    
-    </>
+      <Header/>
+      <Carousel/>
+      <Saludo name="Juan"age="15" action={miFuncion}/>
+      <br></br>
+      <Saludo name="Ana"age="35"/>
+    </> 
   );
 }
 
