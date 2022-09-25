@@ -1,4 +1,5 @@
 import "./App.css";
+import Carusel from "./components/Carusel";
 import Header from "./components/Header";
 import ItemListContainer from "./components/ItemListContainer";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Header>
         <Navbar></Navbar>
         <ItemListContainer greeting="SALUDO"></ItemListContainer>
+        <Carusel></Carusel>
         <Saludo name="Juan" age="15" action={miFuncion} />
         <Saludo name="Ana" age="35" /> 
       </Header>
