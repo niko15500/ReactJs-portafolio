@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import LoadingSpinner from "./LoadingSpinner";
-import ItemList from "./ItemList";
-import { items as itemsData } from "../data/data";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import ItemList from "../ItemList/ItemList";
+import { items as itemsData } from "../../data/data";
 
 const ItemListContainer = () => {
 

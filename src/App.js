@@ -1,11 +1,11 @@
 import "./App.css";
-import Card from "./components/Card";
-import Carusel from "./components/Carusel";
+import Card from "./components/Card/Card";
+import Carusel from "./components/Carousel/Carusel";
 import Contador from "./components/Contador";
 
-import Header from "./components/Header";
-import ItemListContainer from "./components/ItemListContainer";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header/Header";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import Navbar from "./components/NavBar/Navbar";
 import Saludo from "./components/Saludo";
 
 const miFuncion = () => {};

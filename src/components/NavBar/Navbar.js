@@ -1,6 +1,6 @@
 import React from "react";
-import CartWidget from "./CartWidget";
-import ItemListContainer from "./ItemListContainer";
+import CartWidget from "../CardWidget/CartWidget";
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 
 const Navbar = () => {
   return (
