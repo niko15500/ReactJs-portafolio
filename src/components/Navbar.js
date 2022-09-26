@@ -58,16 +58,16 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">SkateKing</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <a>Item 1</a>
+              <a>Inicio</a>
             </li>
             <li tabIndex={0}>
               <a>
-                Parent
+                Mas
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,15 +80,15 @@ const Navbar = () => {
               </a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Blog</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Contacto</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Sobre Nosotros</a>
             </li>
           </ul>
         </div>
